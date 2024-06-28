@@ -1,0 +1,28 @@
+/* Block Element (Main container) */
+.paragraph-container {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+/* Block Element (Paragraph) */
+.paragraph {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Block Element Modifiers (Paragraph variations) */
+.paragraph--intro {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.paragraph--highlight {
+    background-color: #f0f0f5; /* Light blue highlight */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.paragraph--muted {
+    color: #666; /* Darker gray for muted text */
+}
