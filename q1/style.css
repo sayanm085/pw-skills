@@ -1,0 +1,5 @@
+/* External CSS (in style.css) */
+#box3 {
+    background-color: gold;  /* This will override the lightblue from the internal CSS */
+    border: 2px dashed black; /* Add a border to Box 3 */
+}
